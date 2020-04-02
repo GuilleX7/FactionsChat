@@ -1,0 +1,25 @@
+name: FactionsChat
+main: guillex7.github.io.factionschat.FactionsChat
+version: 1.0
+api-version: 1.15
+description: Lightweight chat plugin for Factions
+author: GuilleX7
+website: https://github.com/GuilleX7/FactionsChat
+depend: [Factions]
+permissions:
+   factionschat.*:
+      description: Gives access to all permissions
+      children:
+         factionschat.chat: true
+         factionschat.reload: true
+   factionschat.chat:
+      description: Allows to use faction chat channels
+      default: true
+   factionschat.reload:
+      description: Allows to reload the plugin
+      default: op
+commands:
+   fchat:
+      description: Main command
+      aliases: [fc]
+      permission: factionschat.chat

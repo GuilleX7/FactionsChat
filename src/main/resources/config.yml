@@ -1,0 +1,33 @@
+# Format for channel messages
+#
+# Titled/untitled formats will be applied depending on whether the sender
+# has a faction title or not
+#
+# Allowed variables are:
+# %PLAYERNAME%: sender name
+# %DISPLAYNAME%: sender display name
+# %FACTIONNAME%: sender faction name
+# %TITLE%: sender faction title
+# %PREFIX%: sender faction rank prefix
+# %MESSAGE%: sender message
+format:
+   ally:
+      titled: "&d[A] %PREFIX%%FACTIONNAME% %PLAYERNAME%: %MESSAGE%"
+      untitled: "&d[A] %PREFIX%%FACTIONNAME% %PLAYERNAME%: %MESSAGE%"
+   faction:
+      titled: "&2[F] %PREFIX%%TITLE% %PLAYERNAME%: %MESSAGE%"
+      untitled: "&2[F] %PREFIX%%PLAYERNAME%: %MESSAGE%"
+      
+# Messages for the plugin
+message:
+   public: "&c[FactionsChat] &fSwitched to &lpublic &rchat"
+   ally: "&c[FactionsChat] &fSwitched to &d&lally &f&rchat"
+   faction: "&c[FactionsChat] &fSwitched to &a&lfaction &f&rchat"
+   nopermission: "&c[FactionsChat] You don't have permission to do this!"
+   usage: "&c[FactionsChat] &fUsage:\n
+   &7/fchat (p[ublic]/a[lly]/f[action]): &fChanges faction chat channel\n
+   &7/fchat help: &fShows help information\n
+   &7/fchat about: &fShows about information\n
+   &7/fchat reload: &fReloads the plugin"
+   nofaction: "&c[FactionsChat] You don't belong to any faction!"
+   reload: "&c[FactionsChat] &2Reload complete!"
