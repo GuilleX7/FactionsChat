@@ -1,7 +1,7 @@
 name: FactionsChat
 main: guillex7.github.io.factionschat.FactionsChat
 version: 1.0
-api-version: 1.15
+api-version: 1.16
 description: Lightweight chat plugin for Factions
 author: GuilleX7
 website: https://github.com/GuilleX7/FactionsChat
