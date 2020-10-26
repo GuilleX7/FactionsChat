@@ -1,17 +1,17 @@
-package guillex7.github.io.factionschat;
+package io.github.guillex7.factionschat;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import guillex7.github.io.factionschat.chat.ChatChannel;
-import guillex7.github.io.factionschat.chat.ChatChannelStorage;
-import guillex7.github.io.factionschat.listener.ChatListener;
-import guillex7.github.io.factionschat.listener.CommandListener;
-import guillex7.github.io.factionschat.listener.FactionListener;
-import guillex7.github.io.factionschat.listener.PlayerListener;
-import guillex7.github.io.factionschat.message.MessageFormatter;
+import io.github.guillex7.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.chat.ChatChannelStorage;
+import io.github.guillex7.factionschat.listener.ChatListener;
+import io.github.guillex7.factionschat.listener.CommandListener;
+import io.github.guillex7.factionschat.listener.FactionListener;
+import io.github.guillex7.factionschat.listener.PlayerListener;
+import io.github.guillex7.factionschat.message.MessageFormatter;
 
 import java.util.logging.Level;
 

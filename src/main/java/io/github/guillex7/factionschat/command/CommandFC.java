@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.command;
+package io.github.guillex7.factionschat.command;
 
 import java.util.logging.Level;
 
@@ -9,10 +9,10 @@ import org.bukkit.entity.Player;
 
 import com.massivecraft.factions.entity.MPlayer;
 
-import guillex7.github.io.factionschat.FactionsChat;
-import guillex7.github.io.factionschat.chat.ChatChannel;
-import guillex7.github.io.factionschat.chat.ChatChannelStorage;
-import guillex7.github.io.factionschat.message.MessageFormatter;
+import io.github.guillex7.factionschat.FactionsChat;
+import io.github.guillex7.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.chat.ChatChannelStorage;
+import io.github.guillex7.factionschat.message.MessageFormatter;
 
 public class CommandFC {
 	public static boolean executor(CommandSender sender, Command cmd, String label, String[] args) {

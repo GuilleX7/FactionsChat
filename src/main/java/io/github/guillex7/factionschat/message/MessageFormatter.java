@@ -1,9 +1,9 @@
-package guillex7.github.io.factionschat.message;
+package io.github.guillex7.factionschat.message;
 
 import com.massivecraft.factions.entity.MPlayer;
 
-import guillex7.github.io.factionschat.FactionsChat;
-import guillex7.github.io.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.FactionsChat;
+import io.github.guillex7.factionschat.chat.ChatChannel;
 
 public class MessageFormatter {
 	public static String getFormatKey(String key, Boolean titled) {

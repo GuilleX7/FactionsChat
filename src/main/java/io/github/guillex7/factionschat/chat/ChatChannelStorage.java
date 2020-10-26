@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.chat;
+package io.github.guillex7.factionschat.chat;
 
 import java.util.HashMap;
 import java.util.Map;

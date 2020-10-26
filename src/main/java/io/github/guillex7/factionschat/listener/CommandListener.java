@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.listener;
+package io.github.guillex7.factionschat.listener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,11 +7,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;
 
-import guillex7.github.io.factionschat.chat.ChatChannel;
-import guillex7.github.io.factionschat.command.CommandAbout;
-import guillex7.github.io.factionschat.command.CommandFC;
-import guillex7.github.io.factionschat.command.CommandHelp;
-import guillex7.github.io.factionschat.command.CommandReload;
+import io.github.guillex7.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.command.CommandAbout;
+import io.github.guillex7.factionschat.command.CommandFC;
+import io.github.guillex7.factionschat.command.CommandHelp;
+import io.github.guillex7.factionschat.command.CommandReload;
 
 public class CommandListener implements TabExecutor {
 	private final static String[] SUBCOMMANDS = { "help", "about", "reload" };

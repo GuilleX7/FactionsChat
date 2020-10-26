@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.listener;
+package io.github.guillex7.factionschat.listener;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -8,10 +8,10 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 import com.massivecraft.factions.entity.MPlayer;
 
-import guillex7.github.io.factionschat.chat.ChatChannel;
-import guillex7.github.io.factionschat.chat.ChatChannelStorage;
-import guillex7.github.io.factionschat.message.MessageBroadcaster;
-import guillex7.github.io.factionschat.message.MessageFormatter;
+import io.github.guillex7.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.chat.ChatChannelStorage;
+import io.github.guillex7.factionschat.message.MessageBroadcaster;
+import io.github.guillex7.factionschat.message.MessageFormatter;
 
 public class ChatListener implements Listener {
 	@EventHandler(priority = EventPriority.HIGHEST)

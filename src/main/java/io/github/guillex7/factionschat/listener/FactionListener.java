@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.listener;
+package io.github.guillex7.factionschat.listener;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -7,8 +7,8 @@ import org.bukkit.event.Listener;
 import com.massivecraft.factions.event.EventFactionsMembershipChange;
 import com.massivecraft.factions.event.EventFactionsMembershipChange.MembershipChangeReason;
 
-import guillex7.github.io.factionschat.chat.ChatChannel;
-import guillex7.github.io.factionschat.chat.ChatChannelStorage;
+import io.github.guillex7.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.chat.ChatChannelStorage;
 
 public class FactionListener implements Listener {
 	@EventHandler(priority = EventPriority.MONITOR)

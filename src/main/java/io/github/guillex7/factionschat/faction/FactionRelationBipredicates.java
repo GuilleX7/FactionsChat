@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.faction;
+package io.github.guillex7.factionschat.faction;
 
 import java.util.function.BiPredicate;
 

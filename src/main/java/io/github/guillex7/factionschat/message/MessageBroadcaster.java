@@ -1,4 +1,4 @@
-package guillex7.github.io.factionschat.message;
+package io.github.guillex7.factionschat.message;
 
 import org.bukkit.entity.Player;
 
@@ -7,7 +7,7 @@ import com.massivecraft.factions.entity.Faction;
 import com.massivecraft.factions.entity.FactionColl;
 import com.massivecraft.factions.entity.MPlayer;
 
-import guillex7.github.io.factionschat.chat.ChatChannel;
+import io.github.guillex7.factionschat.chat.ChatChannel;
 
 public class MessageBroadcaster {
 	public static void broadcastToChannel(String message, MPlayer sender, ChatChannel channel) {

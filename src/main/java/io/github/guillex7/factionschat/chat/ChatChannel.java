@@ -1,12 +1,12 @@
-package guillex7.github.io.factionschat.chat;
+package io.github.guillex7.factionschat.chat;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiPredicate;
 
-import guillex7.github.io.factionschat.faction.FactionRelationBipredicates;
-
 import com.massivecraft.factions.Rel;
+
+import io.github.guillex7.factionschat.faction.FactionRelationBipredicates;
 
 public enum ChatChannel {
 	FACTION(null, "f", "faction", Rel.FACTION, new FactionRelationBipredicates.AtLeast()),

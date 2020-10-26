@@ -1,9 +1,9 @@
-package guillex7.github.io.factionschat.command;
+package io.github.guillex7.factionschat.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-import guillex7.github.io.factionschat.FactionsChat;
+import io.github.guillex7.factionschat.FactionsChat;
 
 public class CommandHelp {
 	public static boolean executor(CommandSender sender, Command cmd, String label, String[] args) {
